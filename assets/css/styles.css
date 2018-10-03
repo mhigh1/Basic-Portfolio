@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    height: 100%;
     background-image: url("../images/subtle_white_feathers.png");
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
@@ -20,6 +21,13 @@ h2 {
     color: #4aaaa5;
     margin: 10px;
     font-weight: bold;
+}
+
+#viewport {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-height: 100%;
 }
 
 #header {
