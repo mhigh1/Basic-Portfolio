@@ -108,18 +108,18 @@ nav a:last-child {
     padding-top: 20px;
 }
 
-#footer {
+footer {
     height: 50px;
     width: 100%;
     margin-top: -58px;
-    border-top: 8px solid teal;
+    border-top: 8px solid #4aaaa5;
     background-color: #666666;
     text-align: center;
     color: white;
     font-size: 12px;
 }
 
-#footer span {
+footer p {
     position: relative;
     top: 60%;
     margin: auto;
@@ -192,7 +192,7 @@ nav a:last-child {
 
 /* CONTACT FORM */
 
-.center {
+.form-center {
     margin: 10px;
 }
 
