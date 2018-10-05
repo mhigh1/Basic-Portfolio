@@ -4,30 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-<style>
-input:focus, input:hover {
-    outline: none;
-    border: 1px solid red;
-    border-radius: 25px;
-}
-
-input {
-    padding: 0px 25px;
-    border: 1px solid #777777;
-    border-radius: 25px;
-    width:200px;
-    height:35px;
-}
-</style>
-
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+    <title>Contact</title>
 </head>
 <body>
-    <form >
-        <input type="text">
-        <input type="text">
-        <textarea></textarea>
-        <input type="button" value="Click Here" style="padding: 0px 25px; border: 1px solid #777777; border-radius: 25px; width:200px; height: 35px;" >
-    </form>
+    <div id="viewport">
+        <div id="header">
+            <div class="titleBar">
+                <div class="NameTile">
+                    <h1>Michael High</h1>
+                </div>
+                <nav>
+                    <a href="./index.html">About</a>
+                    <a href="./portfolio.html">Portfolio</a>
+                    <a href="./contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+        <div class="content-wrapper">
+            <div id="content-container">
+                <h2>Portfolio</h2>
+                <div class="content">
+                    <div class="center">
+                    <form name="frmContact" method="POST">
+                        <div>
+                            <label for="name">Name</label>
+                            <input id="name" type="text" value="John Smith" name="name">
+                        </div>
+                        <div>
+                            <label for="email">E-mail Address</label>
+                            <input id="email" type="text" value="example@gmail.com" name="email">
+                        </div>
+                        <div>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message"></textarea>
+                        </div>
+                        <div>
+                            <input id="submit" name="submit" type="submit" value="Submit">
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <span>Copyright &copy; 2018</span>
+    </div>
 </body>
 </html>
