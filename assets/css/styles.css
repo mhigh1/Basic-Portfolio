@@ -129,7 +129,7 @@ footer p {
 .profile p {
     margin-top: 0px;
     line-height: 1.5em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .profile p:last-child {
     margin-top: 0px;
@@ -144,7 +144,7 @@ footer p {
     padding: 0px 20px 10px 0px;
 }
 
-/* PORTFOLIO ACTIVITIES */
+/* PORTFOLIO SECTION */
 .activity-group {
     margin: auto;
     width: 630px;
@@ -191,7 +191,6 @@ footer p {
 }
 
 /* CONTACT FORM */
-
 .form-center {
     margin: 10px;
 }
@@ -221,7 +220,6 @@ textarea {
     height:100px;
     resize: none;
     box-sizing: border-box;
-
 }
 
 input:focus, input:hover, textarea:focus, textarea:hover {
